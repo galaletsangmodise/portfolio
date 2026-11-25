@@ -1,16 +1,16 @@
-// Edit everything here. Replace the TODO values with your own.
+
 export const site = {
-  name: "Leago",
-  title: "Leago | Mobile developer",
-  description: "Mobile developer who thinks three moves ahead.",
-  email: "hello@example.com", // TODO
-  github: "https://github.com/your-username", // TODO
-  linkedin: "https://www.linkedin.com/in/your-username", // TODO
+  name: "Galaletsang Modise",
+  title: "Galaletsang Modise | Fullstack developer",
+  description: "Fullstack developer who thinks three moves ahead.",
+  email: "galaletsangmodise71@gmail.com", 
+  github: "https://github.com/galaletsangmodise", 
+  linkedin: "https://www.linkedin.com/in/galaletsangmodise", 
 };
 
 export const hero = {
   eyebrow: "Mobile developer. Product thinker.",
-  lines: ["I think", "three moves"],
+  lines: ["Thinking", "three moves"],
   italic: "ahead.",
   cta: "See my work",
 };
@@ -32,15 +32,15 @@ export type Project = {
   title: string;
   tag: string;
   href: string;
-  image?: string; // e.g. "/images/project-one.png" (drop the file in /public/images)
-  tone: string; // placeholder gradient until you add an image
+  image?: string; 
+  tone: string; 
 };
 
 export const projects: Project[] = [
-  { title: "Project one", tag: "Mobile app", href: "#", tone: "from-[#d8c8ba] to-[#a89686]" },
-  { title: "Project two", tag: "Web app", href: "#", tone: "from-[#cbb9aa] to-[#7d6a5c]" },
-  { title: "Project three", tag: "Design system", href: "#", tone: "from-[#6b3f2e] to-[#2a1b15]" },
-  { title: "Project four", tag: "Open source", href: "#", tone: "from-[#e3d6ca] to-[#b7a595]" },
+  { title: "Pholo", tag: "Mobile app", href: "https://github.com/galaletsangmodise/PHOLO.git", image:"/images/pholo.jpg", tone: "from-[#d8c8ba] to-[#a89686]" },
+  { title: "Career Coach", tag: "Web app", href: "https://github.com/galaletsangmodise/Career-Coach-App.git", image:"/images/coach.jpeg", tone: "from-[#cbb9aa] to-[#7d6a5c]" },
+  { title: "Rooms&Rights", tag: "Web app", href: "https://github.com/galaletsangmodise/Rooms-Rights.git", image:"/images/rooms.png", tone: "from-[#6b3f2e] to-[#2a1b15]" },
+  { title: "Light In The Abyss", tag: "Professional Website", href: "https://github.com/galaletsangmodise/light-in-the-abyss.git", image:"/images/light.jpeg", tone: "from-[#e3d6ca] to-[#b7a595]" },
 ];
 
 export const footer = { line: "Let's build something remarkable together.", cta: "Get in touch" };
